@@ -1,0 +1,31 @@
+:root{
+    box-sizing: border-box;
+    --purple:#7d3780;
+    --dark-purple:#4a2c40;
+    --yellow:#e9bd43;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    background-color: var(--dark-purple);
+    box-shadow: 2px -3px 22px 1px black;
+    
+}
+
+.link{
+    padding: 20px;
+    z-index: 100;
+    color: var(--yellow);
+
+}
+
+.selected{
+    padding: 20px;
+    z-index: 100;
+    background-color: #7d3780;
+    border-bottom: 1px solid #e9bd43;
+    color: white;
+ 
+}
+
