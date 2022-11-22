@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
- function Quiz() {
+function Quiz() {
 	const questions = [
 		{
 			questionText: 'What is the third angle for the triangle where angle1 = 90° and angle2=60°',
